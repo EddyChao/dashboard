@@ -110,7 +110,8 @@
                             <a class="page-link" th:href="@{'/emps/all/' + ${pages.getNextPage()}}" href="#" aria-label="Next">
                                 <span aria-hidden="true">&raquo;</span>
                             </a>
-                        </li>
+                        </li >
+                        <li th:text="'总共' + ${pages.total} + '条记录，共' + ${pages.pages} + '页'" class="page-item" style="margin: 7px"></li>
                     </ul>
                 </nav>
             </div>
