@@ -1,0 +1,16 @@
+INSERT INTO `employee`(`id`, `lastName`, `email`, `gender`, `department`, `birth`) VALUES (2, 'chao', '10@qq.com', 0, 2, '2020-11-09');
+INSERT INTO `employee`(`id`, `lastName`, `email`, `gender`, `department`, `birth`) VALUES (4, 'tc', '101@qq.com', 1, 1, '2020-10-09');
+INSERT INTO `employee`(`id`, `lastName`, `email`, `gender`, `department`, `birth`) VALUES (7, 'cc', '101@qq.com', 0, 2, '2020-10-05');
+INSERT INTO `employee`(`id`, `lastName`, `email`, `gender`, `department`, `birth`) VALUES (8, 'qq', '101@qq.com', 1, 1, '2020-10-20');
+INSERT INTO `employee`(`id`, `lastName`, `email`, `gender`, `department`, `birth`) VALUES (9, 'ff', '111@qq.com', 0, 1, '2020-10-20');
+INSERT INTO `employee`(`id`, `lastName`, `email`, `gender`, `department`, `birth`) VALUES (10, 'ww', '101@qq.com', 0, 1, '2020-10-05');
+INSERT INTO `employee`(`id`, `lastName`, `email`, `gender`, `department`, `birth`) VALUES (11, 'vv', '1403774697@qq.com', 1, 1, '2020-10-04');
+INSERT INTO `employee`(`id`, `lastName`, `email`, `gender`, `department`, `birth`) VALUES (12, 'hh', '101@qq.com', 0, 1, '2020-10-06');
+INSERT INTO `employee`(`id`, `lastName`, `email`, `gender`, `department`, `birth`) VALUES (13, 'uu', '101@qq.com', 0, 2, '2020-10-20');
+INSERT INTO `employee`(`id`, `lastName`, `email`, `gender`, `department`, `birth`) VALUES (14, 'ku', '111@qq.com', 0, 2, '2020-10-04');
+INSERT INTO `employee`(`id`, `lastName`, `email`, `gender`, `department`, `birth`) VALUES (15, 'bv', '1403774697@qq.com', 0, 2, '2020-10-10');
+INSERT INTO `employee`(`id`, `lastName`, `email`, `gender`, `department`, `birth`) VALUES (16, 'ui', '111@qq.com', 1, 2, '2020-10-10');
+INSERT INTO `employee`(`id`, `lastName`, `email`, `gender`, `department`, `birth`) VALUES (17, 'lo', '111@qq.com', 1, 1, '2020-10-05');
+INSERT INTO `employee`(`id`, `lastName`, `email`, `gender`, `department`, `birth`) VALUES (18, '唐超', '111@qq.com', 1, 2, '2020-10-04');
+INSERT INTO `employee`(`id`, `lastName`, `email`, `gender`, `department`, `birth`) VALUES (19, 'zz', '101@qq.com', 1, 2, '2020-10-20');
+INSERT INTO `employee`(`id`, `lastName`, `email`, `gender`, `department`, `birth`) VALUES (21, 'nn', '111@qq.com', 0, 2, '2020-10-05');
