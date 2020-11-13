@@ -8,6 +8,7 @@ import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.crypto.password.MessageDigestPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
 /**
@@ -73,7 +74,9 @@ public class MySecurityConfig extends WebSecurityConfigurerAdapter {
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
         //super.configure(auth);
-        auth.userDetailsService(userDetailsService()).passwordEncoder(Md5PasswordEncoder());
+//        auth.userDetailsService(userDetailsService()).passwordEncoder(Md5PasswordEncoder());
+        //可以使用spring Security自带的MD5编码器，也可以像上面一样 使用自定义的MD5编码器
+        auth.userDetailsService(userDetailsService()).passwordEncoder(new MessageDigestPasswordEncoder("MD5"));
 
     }
     @Bean
